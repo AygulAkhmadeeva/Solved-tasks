@@ -27,3 +27,17 @@ if (n>0 && m>0) {
       return 0;
 }
 ```
+```javascript
+// https://www.codewars.com/kata/well-of-ideas-easy-version/train/javascript
+// Well of Ideas - Easy Version
+function well(x){
+console.log(x);
+ let j = 0;
+  for (let i=0; i<x.length; i++) {
+   if (x[i] === 'good') j+=1;
+   }
+ if (j===1 || j===2) return 'Publish!';
+ if (j>2) return 'I smell a series!';
+ if (j<1) return 'Fail!';
+}
+```
