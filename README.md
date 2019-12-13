@@ -41,3 +41,29 @@ console.log(x);
  if (j<1) return 'Fail!';
 }
 ```
+```javascript
+//https://www.codewars.com/kata/merge-two-sorted-arrays-into-one/train/javascript
+//Merge two sorted arrays into one
+function mergeArrays(arr1, arr2) {
+console.log(arr1, arr2);
+  let newArr = [];
+   for(let i=0; i<arr1.length; i++) {
+    arr2.push(arr1[i]);
+    }
+  newArr = arr2.sort((a,b) => a-b);
+  let uniqArr = Array.from(new Set(newArr));
+  return uniqArr;
+}
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
