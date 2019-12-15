@@ -57,6 +57,13 @@ console.log(arr1, arr2);
 ```
 
 ```javascript
+//https://www.codewars.com/kata/return-the-closest-number-multiple-of-10/train/javascript
+//Return the closest number multiple of 10
+const closestMultiple10 = num => {
+console.log(num);
+ if (num%10 < 5) return num - (num %10);
+ if (num%10 >= 5) return num + 10 - num % 10;
+};
 ```
 
 ```javascript
