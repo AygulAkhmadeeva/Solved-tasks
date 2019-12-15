@@ -75,7 +75,16 @@ const cu = 4*A*A/(Math.PI*Math.PI)
 return +cu.toFixed(2);
   }
 ```
-
+//Calculate Two People's Individual Ages #7
+https://www.codewars.com/kata/calculate-two-peoples-individual-ages/train/javascript
+function getAges(s,d){
+console.log(s,d);
+if (s<0 || d<0 || d>s) return null;
+const arr = [];
+arr[1] = (s-d)/2;
+arr[0] = arr[1]+d;
+return arr;
+};
 ```javascript
 ```
 
