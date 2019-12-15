@@ -94,4 +94,27 @@ function isTriangle(a,b,c) {
 ```
 
 ```javascript
+//https://www.codewars.com/kata/power-of-two/train/javascript
+//Power of two
+let isPowerOfTwo = (n) => !(n & (n - 1)) && n != 0;
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
 ```
