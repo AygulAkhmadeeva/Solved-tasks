@@ -86,6 +86,11 @@ arr[0] = arr[1]+d;
 return arr;
 };
 ```javascript
+//https://www.codewars.com/kata/is-this-a-triangle/train/javascript
+//Is this a triangle? #7
+function isTriangle(a,b,c) {
+ return (a + b > c && a + c > b && b + c > a);
+ }
 ```
 
 ```javascript
