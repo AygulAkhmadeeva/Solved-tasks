@@ -67,6 +67,13 @@ console.log(num);
 ```
 
 ```javascript
+//Area of a Square
+//https://www.codewars.com/kata/area-of-a-square/train/javascript
+function squareArea(A){
+console.log(A);
+const cu = 4*A*A/(Math.PI*Math.PI)
+return +cu.toFixed(2);
+  }
 ```
 
 ```javascript
