@@ -100,9 +100,37 @@ let isPowerOfTwo = (n) => !(n & (n - 1)) && n != 0;
 ```
 
 ```javascript
+//https://www.codewars.com/kata/factorial-1/train/javascript
+//7 kyu Factorial
+function factorial(n){
+if (n === 0) return 1;
+return n*factorial(n-1);
+}
 ```
 
 ```javascript
+//https://www.codewars.com/kata/filter-the-number/train/javascript
+//Filter the number #7
+var FilterString = function(value) {
+  //Complete this function :)
+}
+var FilterString = function(value) {
+console.log(value);
+  let mV = value.split('');
+  let res = mV.filter((j) => j >= 0); //massiv s chislami
+  return +res.join('');
+  }     ORRRRRRRRRRR
+const FilterString = value => {
+  return Number(
+    value
+      .split("")
+      .filter(ele => Number(ele) == ele)
+      .join("")
+  );
+};
+
+ //&& isNaN(value[i])
+
 ```
 
 ```javascript
