@@ -134,6 +134,18 @@ const FilterString = value => {
 ```
 
 ```javascript
+//Square Every Digit #7
+//https://www.codewars.com/kata/square-every-digit/train/javascript
+function squareDigits(num){
+console.log(num);
+let newArr =[];
+  array = num.toString().split("");
+for (let i=0; i< array.length; i++){
+newArr.push(array[i]*array[i]);
+  }
+  return +newArr.join('');
+   }
+
 ```
 
 ```javascript
