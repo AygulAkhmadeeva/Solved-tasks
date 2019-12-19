@@ -149,6 +149,17 @@ newArr.push(array[i]*array[i]);
 ```
 
 ```javascript
+//https://www.codewars.com/kata/enumerable-magic-number-1-true-for-all/train/javascript
+//Enumerable Magic #1 - True for All?
+function all( arr, fun ) {
+  for(let i = 0; i < arr.length; i++) {
+    if(!fun(arr[i])) {
+      return false;
+    }
+  }
+  return true;
+}
+
 ```
 ```javascript
 ```
