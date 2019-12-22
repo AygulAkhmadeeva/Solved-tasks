@@ -162,6 +162,9 @@ function all( arr, fun ) {
 
 ```
 ```javascript
+//https://www.codewars.com/kata/find-the-next-perfect-square/train/javascript
+//Find the next perfect square!   7rank
+const findNextSquare = (sq) => (Math.sqrt(sq) % 1 === 0) ?((Math.sqrt(sq)+1)*(Math.sqrt(sq)+1)) : -1;
 ```
 ```javascript
 ```
