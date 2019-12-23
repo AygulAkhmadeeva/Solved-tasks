@@ -167,6 +167,11 @@ function all( arr, fun ) {
 const findNextSquare = (sq) => (Math.sqrt(sq) % 1 === 0) ?((Math.sqrt(sq)+1)*(Math.sqrt(sq)+1)) : -1;
 ```
 ```javascript
+// https://www.codewars.com/kata/57efcb78e77282f4790003d8/solutions/javascript
+//How many times should I go? #7
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice / individualPrice);
+}
 ```
 ```javascript
 ```
