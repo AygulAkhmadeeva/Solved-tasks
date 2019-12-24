@@ -159,8 +159,8 @@ function all( arr, fun ) {
   }
   return true;
 }
-
 ```
+
 ```javascript
 //https://www.codewars.com/kata/find-the-next-perfect-square/train/javascript
 //Find the next perfect square!   7rank
@@ -173,7 +173,51 @@ function howManyTimes(annualPrice, individualPrice) {
   return Math.ceil(annualPrice / individualPrice);
 }
 ```
+
+```javascript
+//https://www.codewars.com/kata/every-possible-sum-of-two-digits/train/javascript
+//Every possible sum of two digits #7
+function digits(num){
+const result = [];
+    const parts = String(num).split('').map(n => n | 0);
+    for(let i = 0; i < parts.length; i++) {
+        for (let j = i + 1; j < parts.length; j++) {
+            result.push(parts[i] + parts[j]);
+        }
+    }
+    return result;
+}
+```
+
 ```javascript
 ```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
+```javascript
+```
+
 ```javascript
 ```
