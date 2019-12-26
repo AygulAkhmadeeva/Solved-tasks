@@ -190,6 +190,11 @@ const result = [];
 ```
 
 ```javascript
+//https://www.codewars.com/kata/formatting-decimal-places-number-1/train/javascript
+//Formatting decimal places #1
+function twoDecimalPlaces(number) {
+return Math.trunc(number*100)/100;
+}
 ```
 
 ```javascript
