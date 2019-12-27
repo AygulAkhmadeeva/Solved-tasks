@@ -198,6 +198,18 @@ return Math.trunc(number*100)/100;
 ```
 
 ```javascript
+//https://www.codewars.com/kata/tortoise-racing/train/javascript
+//Tortoise racing, rank #6
+function race(v1, v2, g) {
+   let arr = [];
+   let t2 = g/(v2-v1); // time in h
+   console.log(t2);
+   if (t2<=0) return null;
+   arr[0] = Math.trunc(t2); //h            
+   arr[1] = Math.trunc((t2*60)%60); //min       
+   arr[2] = Math.trunc((t2*3600)%60); //sec
+   return arr;
+}
 ```
 
 ```javascript
