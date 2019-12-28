@@ -213,6 +213,9 @@ function race(v1, v2, g) {
 ```
 
 ```javascript
+//https://www.codewars.com/kata/binary-addition/train/javascript
+//Binary Addition
+const addBinary = (a,b) => (a+b).toString(2);
 ```
 
 ```javascript
