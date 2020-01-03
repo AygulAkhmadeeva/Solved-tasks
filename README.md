@@ -219,6 +219,11 @@ const addBinary = (a,b) => (a+b).toString(2);
 ```
 
 ```javascript
+//https://www.codewars.com/kata/hex-to-decimal/train/javascript
+//Hex to Decimal
+function hexToDec(hexString){
+return parseInt(hexString, 16);
+}
 ```
 
 ```javascript
