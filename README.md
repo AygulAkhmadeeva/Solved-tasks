@@ -259,6 +259,20 @@ const include = (arr, item) => arr.includes(item);
 ```
 
 ```javascript
+//Odd or Even?
+function oddOrEven(arr) {
+console.log(arr);
+let sum = 0;                           
+for (let i = 0; i < arr.length; i++){  
+  sum += arr[i];                  
+}
+console.log(sum);
+if (sum %2 === 0) {
+return 'even';
+} else {
+return 'odd';
+}
+}
 ```
 
 ```javascript
