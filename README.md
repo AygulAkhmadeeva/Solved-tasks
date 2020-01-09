@@ -253,6 +253,9 @@ for (let i = 0; i < arr.length-1;i++){
 ```
 
 ```javascript
+//Enumerable Magic #3 - Does My List Include This?
+//https://www.codewars.com/kata/545991b4cbae2a5fda000158/solutions/javascript
+const include = (arr, item) => arr.includes(item);
 ```
 
 ```javascript
