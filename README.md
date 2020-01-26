@@ -276,6 +276,19 @@ return 'odd';
 ```
 
 ```javascript
+//Remove the minimum
+function removeSmallest(n) {
+  let arr = [];
+  let low = n[0];
+  let lowInd = 0;
+  for (let i = 1; i < n.length; i++){
+     if (n[i]<low) {
+     low = n[i];
+     lowInd = i;
+     }
+  }
+  return n.slice(0,lowInd).concat(n.slice(lowInd+1));  
+}
 ```
 
 ```javascript
