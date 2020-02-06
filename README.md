@@ -292,6 +292,25 @@ function removeSmallest(n) {
 ```
 
 ```javascript
+//Find the divisors! Cata7
+// www.codewars.com/kata/544aed4c4a30184e960010f4/train/javascript
+function divisors(integer) {
+console.log(integer);
+  let arr = [];
+  for (let i=2; i<=integer; i++)
+     {
+     while (i<integer){
+      if(integer % i === 0)
+        {
+        arr.push(i);
+        }
+        i++;
+      }   
+  }
+  if (arr.length === 0) return integer + ' is prime';
+  return arr;
+  console.log(arr);
+};
 ```
 
 ```javascript
