@@ -314,4 +314,65 @@ console.log(integer);
 ```
 
 ```javascript
+//Training JS #4: Basic data types--Array
+//https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript
+function getLength(arr){
+  return arr.length;
+}
+function getFirst(arr){
+   return arr[0];
+}
+function getLast(arr){
+ let i = arr.length -1
+  return arr[i];
+}
+function pushElement(arr){
+  let el=1;
+  arr.push(el);
+  return arr;
+}
+function popElement(arr){
+arr.pop();              
+  return arr;
+}
 ```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+
+
