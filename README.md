@@ -1,17 +1,13 @@
 # Solved-tasks
 * task 1
 ```javascript
-let a = 1;
-let b= 2;
-console.log(a+b);
-```
-```javascript
 //://www.codewars.com/kata/is-he-gonna-survive/train/javascript
 //Is he gonna survive?
 function hero(bullets, dragons){
 return dragons*2 <= bullets ;
 }
 ```
+* task 2
 ```javascript
 //https://www.codewars.com/kata/breaking-chocolate-problem/train/javascript
 //Breaking chocolate problem
@@ -27,6 +23,7 @@ if (n>0 && m>0) {
       return 0;
 }
 ```
+* task 3
 ```javascript
 // https://www.codewars.com/kata/well-of-ideas-easy-version/train/javascript
 // Well of Ideas - Easy Version
@@ -41,6 +38,7 @@ console.log(x);
  if (j<1) return 'Fail!';
 }
 ```
+* task 4
 ```javascript
 //https://www.codewars.com/kata/merge-two-sorted-arrays-into-one/train/javascript
 //Merge two sorted arrays into one
