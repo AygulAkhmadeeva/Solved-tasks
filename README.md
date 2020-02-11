@@ -335,6 +335,11 @@ arr.pop();
 }
 ```
 ```javascript
+//https://www.codewars.com/kata/5703c093022cd1aae90012c9/train/javascript
+//Be Concise IV - Index of an element in an array
+const  find = (array, element) => array.includes(element)
+? array.indexOf(element) : "Not found";
+
 ```
 ```javascript
 ```
