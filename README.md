@@ -352,9 +352,20 @@ else if (s< (dist-10)) return {'Run': `${(dist - s).toFixed(2)} to go!` };
 else if (s < dist) return {'Run':'Nearly there!'}; 
 else return 'You\'re done! Stop running!'; 
 }
-
 ```
 ```javascript
+// https://www.codewars.com/kata/5a9e86705ee396d6be000091/train/javascript
+function checkThreeAndTwo(arr) {
+  const obj = {};
+  for (let i = 0; i < arr.length; i++) {
+  if (obj[arr[i]]) obj[arr[i]]++
+  else obj[arr[i]] = 1;
+  }
+  for(let i in obj){
+  if (obj[i] <2 || obj[i] >3) return false;
+  }
+  return true;
+}
 ```
 ```javascript
 ```
