@@ -368,6 +368,17 @@ function checkThreeAndTwo(arr) {
 }
 ```
 ```javascript
+//Regex Password Validation
+//https://www.codewars.com/kata/52e1476c8147a7547a000811/train/javascript
+
+function validate(p) {
+ let long = p.length >=6; 
+ let lower = !!p.match(/[a-z]/g);
+ let upper = !!p.match(/[A-Z]/g);
+ let num = !!p.match(/[0-9]/g);
+ let sign = !p.match(/\W/g);
+ return long && lower && upper && num && sign;
+}
 ```
 ```javascript
 ```
