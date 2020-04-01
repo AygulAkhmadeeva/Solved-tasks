@@ -381,6 +381,14 @@ function validate(p) {
 }
 ```
 ```javascript
+//https://www.codewars.com/kata/59564f3bcc15b5591a00004a/train/javascript
+//filterEvenLengthWords
+function filterEvenLengthWords(words) {  //arr
+  let arr = words.filter(el => el.length %2 === 0);
+       return arr; 
+       console.log(words);
+}  
+ 
 ```
 ```javascript
 ```
